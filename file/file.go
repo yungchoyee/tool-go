@@ -57,7 +57,6 @@ func ReplaceContent(file string, rMap map[string]string) (err error) {
 			fmt.Println("write to file fail:", err)
 			os.Exit(-1)
 		}
-		fmt.Println("done ", index)
-		index++
 	}
+	return
 }
